@@ -5,7 +5,7 @@ import { Toaster } from 'sonner';
 import { ChunkLoadErrorHandler } from '@/components/chunk-load-error-handler';
 import './globals.css';
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
 const dmSans = DM_Sans({
   subsets: ['latin'],
